@@ -1,0 +1,83 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+main {
+  max-width: 80%;
+  margin: 2em auto
+}
+img {
+  max-width: 100%;
+}
+.responsive {}
+body {
+  font-family: montserrat
+}
+footer {
+  background: #E8E8E8
+}
+.columns {
+  display: flex
+}
+.columns div {
+  width: 50%;
+  padding: 1em;
+}
+/*Main Navigation Design*/
+.main-navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #6ce8f4;
+  overflow: hidden;
+}
+.main-navigation a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: montserrat;
+}
+.main-navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.main-navigation a.active {
+  background-color: #ff13a7;
+  color: black;
+}
+.logo {
+  margin-right: auto;
+}
+.logo img {
+	max-width: 200px;
+}
+.jumbotron .row.text-center .display-2 {}
+/*Footer with Social Media Icons*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/*Instagram*/
+.fa-instagram {
+  background: #E4405F;
+  color: white;
+}
