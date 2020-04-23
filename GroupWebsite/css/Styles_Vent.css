@@ -55,6 +55,116 @@ footer {
 	max-width: 200px;
 }
 .jumbotron .row.text-center .display-2 {}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text{
+  text-align:center;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+	line-height: 70%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.h1{
+	color: black;
+}
+/*About Us Page*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #df336c;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/*Gallery*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row {
+	float: inherit;
+  content: "";
+  clear: both;
+  display: table;
+}
+/*Top Container Home*/ 
+.top-container{
+	display: grid;
+	grid-gap: 20px;
+}
+.background {
+	margin: 80px;
+}
+.cover{
+	width: 1500px;
+	min-height: inherit;
+	margin: 1px
+}
 /*Footer with Social Media Icons*/
 .fa {
   padding: 20px;
