@@ -9,34 +9,47 @@
 
 <body>
 <header>
-  <h1> The Four Seasons </h1>
-	  <nav class="main-navigation">
-		<a href="index_dw.html">Home</a>
-		  <a href="Spring.html">Spring</a>
-		  <a href="Summer.html">Summer</a>
-		  <a href="Autumn.html">Autumn</a>
-		  <a href="Winter.html">Winter</a>
-		  <a href="index_choc.html">Chocolate</a>
-		  <a href="Contact.html">Contact Us</a>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html"><h1> The Four Seasons </h1></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index_dw.html">Home</a></li>		
+		  <li><a href="Spring.html">Spring</a></li>
+		  <li><a href="Summer.html">Summer</a></li>
+		  <li><a href="Autumn.html">Autumn</a></li>
+		  <li><a href="Winter.html">Winter</a></li>
+		  <li><a href="index_choc.html">Chocolate</a></li>
+		  <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+  </div>
     </nav>
 </header>
 <main>
-	<h1>Get in touch</h1>	
+	<section class="container">
+	<div class="row">
+		<figure class="col-sm-12">
+		<h1>Get in touch</h1>	
 	<p>You wanna know more about activities during winter or any other season? Do not hesitate to fill out the form and contact us! We always love to hear from you guys.
 	Enjoy ever weather!</p>
-	<div class="container">
+		</figure>
+		</div>
+	</section>
+	<section class="container">
+	<div class="row">
 		<h3>Contact Us</h3>
   <form action="../action_page.php">
     <label for="fname">First Name</label>
-	  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+	  <input type="text" id="fname" name="firstname" placeholder="Your name...">
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.."> 
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..."> 
 	  <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.."> </textarea>
+    <textarea id="subject" name="subject" placeholder="Write something..."> </textarea>
 	   <input type="submit" value="Submit">
-		</form></div>
-	<div>
-	</div>
+		</form>
+		</div>
+	</section>
 </main>
 <footer> &copy;Cordula Newrkla <a href="http://www.buas.nl" target="_blank">buas.nl</a> </footer>
 <script src="../js/jquery-3.4.1. slim.js"></script> 

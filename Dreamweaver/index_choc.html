@@ -9,23 +9,33 @@
 
 <body>
 <header>
-  <h1 class="my-class"> Hello Chocolate Lover! </h1>
-  <nav class="main-navigation">
-	  <a href="index_dw.html">Home</a>
-	  <a href="Spring.html">Spring</a>
-	  <a href="Summer.html">Summer</a>
-	  <a href="Autumn.html">Autumn</a>
-	  <a href="Winter.html">Winter</a>
-	  <a href="index_choc.html">Chocolate</a> </nav>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html"><h1> The Four Seasons </h1></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index_dw.html">Home</a></li>		
+		  <li><a href="Spring.html">Spring</a></li>
+		  <li><a href="Summer.html">Summer</a></li>
+		  <li><a href="Autumn.html">Autumn</a></li>
+		  <li><a href="Winter.html">Winter</a></li>
+		  <li><a href="index_choc.html">Chocolate</a></li>
+		  <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+    </nav>
 </header>
 <main> <img src="images_dw/chocolate copy.jpg" alt="Cocoa Beans">
-  <div class="hero">
+  <div class="column">
     <h2>Chocolates from all over the world</h2>
     <p>Chocolate is the most popular sweet treat in the world. People around the world. Mostly in Europe and the United States people consume more than 3 million tons of cocoa beans every year, according to the World Cocoa Foundation. Eating chocolate makes you feel good, it is also good for your heart and your brain.</p>
-    <img src="images_dw/choc_worldmap.jpg" alt="Chocolate Worldmap">
-    <div class="columns">
-      <div>
-        <h3>Europe</h3>
+     </div>
+    <section class="container">
+		<img src="images_dw/choc_worldmap.jpg" alt="Chocolate Worldmap">
+	  <div class="row">
+		<figure class="col-sm-4">
+		    <h3>Europe</h3>
         <ul>
           <li>Austria</li>
           <li>Belgium</li>
@@ -33,16 +43,16 @@
           <li>The Netherlands</li>
           <li>United Kingdom</li>
         </ul>
-      </div>
-      <div>
-        <h3>America</h3>
+		  </figure>
+		  <figure class="col-sm-4">
+		    <h3>America</h3>
         <ul>
           <li>North America</li>
           <li>South America</li>
         </ul>
-	</div>
-	<div>
-        <h3>Asia</h3>
+		  </figure>
+		  <figure class="col-sm-4">
+		       <h3>Asia</h3>
         <ul>
           <li>China</li>
           <li>Russia</li>
@@ -50,9 +60,10 @@
           <li>India</li>
           <li>Korea</li>
         </ul>
-      </div>
-    </div>
-  </div>
+		  </figure>
+		</div>
+	  </section>
+ 
 </main>
 	<footer> &copy;Cordula Newrkla <a href="http://www.buas.nl" target="_blank">buas.nl</a> </footer>
 <script src="js/jquery-3.4.1. slim.js"></script> 

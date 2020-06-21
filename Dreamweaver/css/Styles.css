@@ -20,22 +20,19 @@ img {
 body {font-family: "Inconsolata", "Playfair Display", "Times New Roman", "serif"}
 footer {background: #B04040}
 /*Main Navigation Design*/
-.main-navigation {
+.navbar-default {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   background-color: #B04040;
   overflow: hidden;
 }
-.main-navigation a {
-  float: left;
+.navbar-default a {
   color: #000000;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
-.main-navigation a:hover {
+.navbar-default a:hover {
   background-color: #ddd;
   color: black;
 }
@@ -58,7 +55,6 @@ nav {background: #B04040;
 }
 .main-navigation a{
 	margin: 1em;
-}.jumbotron .row.text-center .display-2 {
 }
 .hero-image{
 	height: 50%;
